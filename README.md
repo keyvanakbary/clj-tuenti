@@ -14,7 +14,7 @@ Add the following dependency to your `project.clj` file:
 (ns test.core
   (:require [tuenti-api.core :as tuenti]))
 
-(def session (tuenti/connect "user@example.com" "password"))
+(def session (tuenti/connect! "user@example.com" "password"))
 
 (println (tuenti/get-friends session))
 ```
