@@ -21,9 +21,7 @@
   (first (json/read-str (:body response) :key-fn keyword)))
 
 (defn- send-request [request]
-  (-> request
-      do-post
-      parse-response))
+  (-> request do-post parse-response))
 
 (defn- build-request [method parameters]
   {:version  version
