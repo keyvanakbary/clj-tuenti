@@ -24,8 +24,7 @@
   (-> request do-post parse-response))
 
 (defn- build-request [method parameters]
-  {:version  version
-   :requests [[method parameters]]})
+  {:version  version :requests [[method parameters]]})
 
 (defn- execute-auth-request [session method & parameters]
   (let [auth-request (assoc (build-request method parameters) :session_id (:session_id session))]
