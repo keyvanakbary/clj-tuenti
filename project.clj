@@ -1,4 +1,4 @@
-(defproject tuenti-api "0.8.1"
+(defproject tuenti-api "0.9.0"
   :description "Unofficial Tuenti API"
   :url "https://github.com/keyvanakbary/clojure-tuenti-api"
   :license {:name "Eclipse Public License"

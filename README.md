@@ -6,7 +6,7 @@ Unofficial Tuenti API.
 
 Add the following dependency to your `project.clj` file:
 
-    [tuenti-api "0.8.1"]
+    [tuenti-api "0.9.0"]
 
 ## Usage
 
@@ -14,9 +14,9 @@ Add the following dependency to your `project.clj` file:
 (ns test.core
   (:require [tuenti-api.core :as tuenti]))
 
-(def session (tuenti/connect! "user@example.com" "password"))
+(tuenti/connect! "user@example.com" "password")
 
-(println (tuenti/get-friends session))
+(println (tuenti/get-friends))
 ```
 
 ## License
