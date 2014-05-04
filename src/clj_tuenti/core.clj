@@ -1,4 +1,4 @@
-(ns tuenti-api.core
+(ns clj-tuenti.core
   (:require [clj-http.client :as http]
             [clojure.data.json :as json]
             [digest]))

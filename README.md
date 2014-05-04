@@ -6,13 +6,13 @@ Unofficial Tuenti API.
 
 Add the following dependency to your `project.clj` file:
 
-    [tuenti-api "0.9.0"]
+    [clj-tuenti "0.9.0"]
 
 ## Usage
 
 ```clojure
 (ns test.core
-  (:require [tuenti-api.core :as tuenti]))
+  (:require [clj-tuenti.core :as tuenti]))
 
 (tuenti/connect! "user@example.com" "password")
 

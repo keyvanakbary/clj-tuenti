@@ -1,8 +1,8 @@
-(ns tuenti-api.test.util
+(ns clj-tuenti.test.util
   (:require [clojure.contrib.mock :refer [expect has-args returns]]))
 
 (defmacro expect-request [body func]
-  `(expect [tuenti-api.core/post
+  `(expect [clj-tuenti.core/post
      (has-args
       ["https://api.tuenti.com/api/"
        {:body ~body

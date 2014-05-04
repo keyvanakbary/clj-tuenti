@@ -1,7 +1,7 @@
-(ns tuenti-api.test.core
+(ns clj-tuenti.test.core
   (:use [clojure.test]
-        [tuenti-api.core]
-        [tuenti-api.test.util]))
+        [clj-tuenti.core]
+        [clj-tuenti.test.util]))
 
 (deftest test-get-friends
   (expect-auth-call
