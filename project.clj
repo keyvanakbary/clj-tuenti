@@ -1,6 +1,6 @@
-(defproject tuenti-api "0.9.0"
+(defproject tuenti "0.9.0"
   :description "Unofficial Tuenti API"
-  :url "https://github.com/keyvanakbary/clojure-tuenti-api"
+  :url "https://github.com/keyvanakbary/tuenti-clj"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
