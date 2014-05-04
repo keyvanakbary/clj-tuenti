@@ -1,5 +1,7 @@
 # Clojure Tuenti API
 
+[![Build Status](https://secure.travis-ci.org/keyvanakbary/clj-tuenti.svg?branch=master)](http://travis-ci.org/keyvanakbary/clj-tuenti)
+
 Unofficial Tuenti API.
 
 ## Installation
